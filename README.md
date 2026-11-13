@@ -2,11 +2,15 @@
 
 **Résumé** :
 
-Application web Streamlit pour un cinéma de la Creuse qui passe au numérique. Elle propose un catalogue de films de type Netflix, un système de recommandation par machine learning et un tableau de bord de KPI pour l’administrateur.
+Application web Streamlit pour un cinéma de la Creuse qui passe au numérique. 
+Elle propose un catalogue de films de type Netflix, un système de recommandation par machine learning et un tableau de bord de KPI pour l’administrateur.
 
 _Contexte_ :
 
-Le client est un cinéma en perte de vitesse dans la Creuse qui veut un site pour les locaux, avec un moteur de recommandations de films. Aucun client n’a renseigné ses préférences : c’est une situation de cold start. Le client fournit une base IMDb et un jeu complémentaire TMDB (budget, recettes, pays des sociétés de production, chemins des posters).
+Le client est un cinéma en perte de vitesse dans la Creuse qui veut un site pour les locaux, avec un moteur de recommandations de films. 
+Aucun client n’a renseigné ses préférences : c’est une situation de cold start. Le client fournit une base IMDb et un jeu complémentaire TMDB (budget, recettes, pays des sociétés de production, chemins des posters).
+
+Nous sommes 3 collaborateurs a travailler sur ce projet pour livrer le produit dans les meilleures conditions. 
 
 ## Fonctionnalités
 
@@ -39,9 +43,31 @@ Distributions de la durée et des notes.
 
 Similarité entre films, calculée sur un vecteur combinant :
 
-Variable	Traitement
-Synopsis	TF-IDF (1 000 termes)
-Genres	MultiLabelBinarizer
-Réalisateur, acteur, compositeur (premier cité)	OneHotEncoder
-Pays et studios de production	MultiLabelBinarizer
-Année	StandardScaler
+
+| Variable | Traitement |
+|---|---|
+| Synopsis |TF-IDF (1 000 termes) |
+| Genres |MultiLabelBinarizer |
+| Réalisateur, acteur, compositeur (premier cité) | OneHotEncoder |
+| Pays et studios de production | MultiLabelBinarizer |
+| Année |StandardScaler|
+
+Les 10 films les plus proches du film consulté sont affichés.
+
+**Exemple** : 
+
+Un utilisateur ouvre "Inception", le moteur cherche les films qui lui ressemblent le plus par le genre, le synopsis, l’équipe et l’époque
+
+## Stack
+
+- [x] Méthode SCRUM
+- [x] Python
+- [x] Pandas, NumPy
+- [x] Streamlit
+- [x] Scikit-Learn
+- [x] SciPy
+- [x] Plotly
+- [x] Requests
+- [x] API TMDB
+- [x] Deep-translator (Google Translate)
+
