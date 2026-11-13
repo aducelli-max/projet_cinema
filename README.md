@@ -34,3 +34,14 @@ Distributions de la durée et des notes.
 5. Avis positifs_ et négatifs par film.
 
 6. Archives PDF_ : ajout, téléchargement, suppression.
+
+## Moteur de recommandation 
+
+Similarité entre films, calculée sur un vecteur combinant :
+
+Variable	Traitement
+Synopsis	TF-IDF (1 000 termes)
+Genres	MultiLabelBinarizer
+Réalisateur, acteur, compositeur (premier cité)	OneHotEncoder
+Pays et studios de production	MultiLabelBinarizer
+Année	StandardScaler
