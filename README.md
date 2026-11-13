@@ -1,4 +1,4 @@
-# Cinéma Creuse : moteur de recommandation de films 
+# Cinéma Creuse : moteur de recommandation de films ![Illustration du projet](<notebooks/Logo.png>)
 
 **Résumé** :
 
@@ -70,4 +70,26 @@ Un utilisateur ouvre "Inception", le moteur cherche les films qui lui ressemblen
 - [x] Requests
 - [x] API TMDB
 - [x] Deep-translator (Google Translate)
+
+## Ressources :
+
+Moteur de recherche :
+
+![Illustration du projet](<notebooks/Moteur_recherche_Classement.png>)
+
+Résumé film : 
+
+![Illustration du projet](<notebooks/Résumé_film.png>)
+
+Films similaires : 
+
+![Illustration du projet](<notebooks/Films similaires.png>)
+
+Tableau_bord_synthèse : 
+
+![Illustration du projet](<notebooks/Tableau_bord_synthèse.png>)
+
+⏱ Évolution de la durée des films par décennie : 
+
+![Illustration du projet](<notebooks/⏱ Évolution de la durée des films par décennie.png>)
 
