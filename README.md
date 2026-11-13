@@ -79,7 +79,7 @@ Moteur de recherche :
 
 Résumé film : 
 
-![Illustration du projet](<notebooks/Résumé_film.png>)
+![Illustration du projet](<notebooks/Resume_film.png>)
 
 Films similaires : 
 
