@@ -75,7 +75,9 @@ Un utilisateur ouvre "Inception", le moteur cherche les films qui lui ressemblen
 
 Moteur de recherche :
 
-![Illustration du projet](<notebooks/Moteur_recherche_Classement.png>)
+![Illustration du projet](<notebooks/Moteur_recherche_Classement .png>)
+
+
 
 Résumé film : 
 
